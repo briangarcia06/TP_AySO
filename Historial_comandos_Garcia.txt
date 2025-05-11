@@ -1,0 +1,139 @@
+git@github.com:BriiARG/vmvagrant_repo.git
+ls
+cd repogit
+ls -l
+cd ..
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+pwd
+ls
+ls-la
+ls -la
+cd .ssh
+ls -la
+cd ..
+cat
+cat /etc/group | more
+cat README
+mkdir clase 4
+ls -l
+mkdir clase4
+ls-l
+ls -l
+cd clase4
+cat > archivo1.txt
+ls -l
+cat << FIN >archivo2.txt
+linea4
+linea5
+linea6
+FIN
+
+ls/l
+ls -l
+cat archivo1.txt > archivo3.txt
+ls /l
+ls -l
+cat archivo3.txt
+cat archivo2.txt >> archivo3.txt
+cat archivo3.txt
+tree
+sudo apt install tree
+sudo snap install tree
+tree
+exit
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/briangarcia06/TP_AySO.git
+git clone git@github.com:briangarcia06/TP_AySO.git
+rm -r TP_AySO
+home
+pwd
+cd T
+git clone git@github.com:briangarcia06/TP_AySO.git
+rm
+rm -r TP_AySO
+rmdir TP_AySO
+rm TP_AySO
+vagrant destroy
+vagrant halt
+ssh-keygen -t ed25519
+cat $HOME/.ssh/
+pwd
+cd .ssh
+ls -l
+cat $HOME/.ssh/id_ed25519.pub
+cd
+mkdir repogit
+cd repogit
+ls -l
+git clone git@github.com:briangarcia06/TP_AySO.git
+cd T
+cd TP_AySO/
+pwd
+ls -l
+cd
+cd repogit
+rm -rf TP_AySO
+ls -l
+git clone git@github.com:briangarcia06/TP_AySO.git
+ls -l
+cd TP_AySO/
+cat /etc/os-release
+man grep
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls /l
+ls -l
+grep HOME_URL/etc/os-release
+grep
+man grep
+grep HOME_URL/etc/os-release
+grep home_url /etc/os-release
+grep home_url/etc/os-release
+man grep
+grep -i Home_url/etc/os-release
+grep -i Home_url/etc/os-release>datos_url.txt
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls/l
+ls-l
+ls -l
+git add .
+git config --global user.email "gamincha@gmail.com"
+git config --global user.name "briangarcia06"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF>> README.md
+Alumno: Brian Garcia
+División: 211
+Turno: Tarde
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+ls -l
+which tree
+tree ~/materia1 ~/materia2
+nano script_dir.sh
+aasdqqcd
+ls
+chmod +x script_dir.sh
+./script_dir.sh
+ls -;
+ls
+tree
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
